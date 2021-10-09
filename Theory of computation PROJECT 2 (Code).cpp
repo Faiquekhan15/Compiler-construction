@@ -9,16 +9,23 @@ void info()
    cout<<" 			CS-G"<<endl;
    cout<<" 			 "<<endl;
    cout<<endl;
-   cout<<"The following program takes a string from user and tells whether its true or"<<endl;
-   cout<<"false according to given automata"<<endl;
-   cout<<"if the automata is coorect it will to next state i.e q0->q1 and if string"<<endl;
-   cout<< "is not justified given automata it will not move insteead of"<<endl;
-   cout<<"this goes to trap state"<<endl;
+	
+   cout<<"The following program takes a string from the user and tells whether it's true"<<endl; 
+   cout<<"or false according to given automata if the automata are correct"<<endl;
+   cout<<"it will to the next state i.e q0->q1 "<<endl;
+   cout<<"and if the string is not justified given automata "<<endl;
+   cout<<"it will not move instead of this goes to trap state"<<endl;
+	
+	
+	
+	
+	
+	
    cout<<'\n';
    system("pause");
 
 }
-void main()
+int main()
 {
    info();  
    char i='\0';
